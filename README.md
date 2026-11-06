@@ -11,6 +11,11 @@ python -m unittest discover -s tests -v
 可选激活：Windows PowerShell 使用 .venv/Scripts/Activate.ps1；Linux 使用 source .venv/bin/activate。
 示例是单状态线性加权最小二乘（WLS）基线，使用合成量测；不是完整电网模型，也不是中间观测器论文算法。输出包含估计值、真值、误差、配置和 Python 版本。
 
+## 中间观测器论文复现入口
+
+从 [复现入口与缺失输入清单](papers/intermediate_observer/README.md) 开始，按顺序填写 [论文索引](papers/INDEX.md)、模型假设、公式映射、参数、目标图表和实验记录。
+当前仅新增资料与规划模板；目标论文尚未确认，中间观测器尚未实现，也没有论文仿真结果。现有 WLS 基线保持独立。
+
 ## 目录
 - papers/：文献索引、公式推导和论文复现映射
 - simulation/：仿真代码和最小运行入口
